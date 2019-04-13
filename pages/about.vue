@@ -37,7 +37,7 @@ export default {
   height: 70%;
   border-radius: 50%;
   article {
-    padding: 5% 12%;
+    padding: 4% 12%;
     color: rgb(172, 164, 164);
     h2 {
       font-size: 2.8vw;
