@@ -49,7 +49,7 @@ main {
   .row {
     display: flex;
     position: relative;
-    height: 22rem;
+    height: 20rem;
     article {
       position: absolute;
       width: 35rem;
