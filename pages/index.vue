@@ -53,34 +53,54 @@ main {
     article {
       position: absolute;
     }
-    .project {
-      left: 13%;
-      top: 68%;
-    }
-    .product {
-      right: 13%;
-      top: 70%;
-    }
-    .about {
-      position: relative;
-      margin: 8% auto;
-    }
-    .skill {
-      left: 8%;
-      bottom: 30%;
-    }
-    .sns {
-      right: 10%;
-      bottom: 30%;
-    }
     @media (max-width: 767px) {
       article {
-        width: 25rem;
+        width: 24rem;
+      }
+      .project {
+        left: 0%;
+        top: 73%;
+      }
+      .product {
+        right: 0%;
+        top: 68%;
+      }
+      .about {
+        position: relative;
+        margin: 20% auto;
+      }
+      .skill {
+        left: 0%;
+        bottom: 50%;
+      }
+      .sns {
+        right: 0%;
+        bottom: 55%;
       }
     }
     @media (min-width: 768px) {
       article {
-        width: 37rem;
+        width: 35rem;
+      }
+      .project {
+        left: 13%;
+        top: 68%;
+      }
+      .product {
+        right: 13%;
+        top: 70%;
+      }
+      .about {
+        position: relative;
+        margin: 8% auto;
+      }
+      .skill {
+        left: 8%;
+        bottom: 30%;
+      }
+      .sns {
+        right: 10%;
+        bottom: 30%;
       }
     }
   }
