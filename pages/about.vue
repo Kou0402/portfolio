@@ -59,7 +59,7 @@ export default {
     width: 140%;
     margin: auto -25%;
     article {
-      padding: 13% 0 5% 21%;
+      padding: 10% 0 5% 21%;
       h2 {
         font-size: 6.5vw;
         letter-spacing: 2.3vw;
