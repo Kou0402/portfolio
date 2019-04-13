@@ -6,6 +6,4 @@ html {
 body {
   font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
   background-color: rgba(40, 56, 94, 1);
-  height: 100vh; /* 変数をサポートしていないブラウザのフォールバック */
-  height: calc(var(--vh, 1vh) * 100);
 }
