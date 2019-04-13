@@ -1,5 +1,5 @@
 <template>
-  <body id="body">
+  <body>
     <nuxt />
   </body>
 </template>

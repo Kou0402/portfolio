@@ -1,5 +1,5 @@
 <template>
-  <main>
+  <main id="body">
     <h1 class="main-title">welcome</h1>
     <div class="row">
       <article class="project">
