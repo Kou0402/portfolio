@@ -8,7 +8,7 @@
         <p>2016年 専門商社の営業職に新卒入社。</p>
         <p>2017年 退職。</p>
         <p>2017年 訓練校にてプログラミング学習(Java)。</p>
-        <p>2018年 SIerに入社しエンジニア転身。</p>
+        <p>2018年 SIerに入社しSEに転職。</p>
       </article>
     </div>
   </section>
@@ -26,7 +26,6 @@ export default {
 
 <style scoped lang="scss">
 section {
-  height: 100vh;
   .wrapper {
     background-color: rgba(157, 177, 202, 0.37);
     top: 0;
