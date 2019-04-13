@@ -79,7 +79,7 @@ main {
 @media (max-width: 767px) {
   main {
     .main-title {
-      top: 10%;
+      top: 12%;
     }
     .row {
       height: 18rem;
@@ -100,11 +100,11 @@ main {
       }
       .skill {
         left: 0%;
-        bottom: 60%;
+        bottom: 25%;
       }
       .sns {
         right: 0%;
-        bottom: 65%;
+        bottom: 30%;
       }
     }
   }
