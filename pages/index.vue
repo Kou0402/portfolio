@@ -52,10 +52,38 @@ main {
     height: 25rem;
     article {
       position: absolute;
+      width: 35rem;
     }
-    @media (max-width: 767px) {
+    .project {
+      left: 13%;
+      top: 68%;
+    }
+    .product {
+      right: 13%;
+      top: 70%;
+    }
+    .about {
+      position: relative;
+      margin: 8% auto;
+    }
+    .skill {
+      left: 8%;
+      bottom: 30%;
+    }
+    .sns {
+      right: 10%;
+      bottom: 30%;
+    }
+  }
+}
+@media (max-width: 767px) {
+  main {
+    .main-title {
+      top: 10%;
+    }
+    .row {
       article {
-        width: 24rem;
+        width: 20rem;
       }
       .project {
         left: 0%;
@@ -71,36 +99,11 @@ main {
       }
       .skill {
         left: 0%;
-        bottom: 50%;
+        bottom: 60%;
       }
       .sns {
         right: 0%;
-        bottom: 55%;
-      }
-    }
-    @media (min-width: 768px) {
-      article {
-        width: 35rem;
-      }
-      .project {
-        left: 13%;
-        top: 68%;
-      }
-      .product {
-        right: 13%;
-        top: 70%;
-      }
-      .about {
-        position: relative;
-        margin: 8% auto;
-      }
-      .skill {
-        left: 8%;
-        bottom: 30%;
-      }
-      .sns {
-        right: 10%;
-        bottom: 30%;
+        bottom: 65%;
       }
     }
   }

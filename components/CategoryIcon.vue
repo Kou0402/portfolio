@@ -42,7 +42,7 @@ export default {
 @media (max-width: 767px) {
   .category-icon {
     span {
-      font-size: 2rem;
+      font-size: 1.8rem;
     }
   }
 }
