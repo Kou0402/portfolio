@@ -56,12 +56,23 @@ export default {
 }
 @media (max-width: 767px) {
   .about {
-    width: 150%;
-    margin: auto -30%;
-  }
-}
-@media (min-width: 768px) {
-  .about {
+    width: 140%;
+    margin: auto -25%;
+    article {
+      padding: 13% 0 5% 21%;
+      h2 {
+        font-size: 6.5vw;
+        letter-spacing: 2.3vw;
+      }
+      .about-text {
+        margin: 11% 5% 0;
+        p {
+          letter-spacing: 0.4vw;
+          font-size: 3.5vw;
+          margin: 1.5rem 0;
+        }
+      }
+    }
   }
 }
 </style>

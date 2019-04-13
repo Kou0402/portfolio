@@ -34,4 +34,11 @@
     transform: rotate(45deg);
   }
 }
+@media (max-width: 767px) {
+  .close-button {
+    width: 5.5rem;
+    height: 5.5rem;
+    margin-left: 75%;
+  }
+}
 </style>

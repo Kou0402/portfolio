@@ -36,11 +36,13 @@ export default {
     width: 100%;
     text-align: center;
     color: rgba(40, 56, 94, 1);
-    @media (max-width: 767px) {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 767px) {
+  .category-icon {
+    span {
       font-size: 2rem;
-    }
-    @media (min-width: 768px) {
-      font-size: 3rem;
     }
   }
 }
