@@ -56,7 +56,8 @@ export default {
 }
 @media (max-width: 767px) {
   .about {
-    width: 130%;
+    width: 150%;
+    margin: auto -30%;
   }
 }
 @media (min-width: 768px) {
