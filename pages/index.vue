@@ -1,5 +1,5 @@
 <template>
-  <main id="body">
+  <main>
     <h1 class="main-title">welcome</h1>
     <div class="row">
       <article class="project">
@@ -49,7 +49,7 @@ main {
   .row {
     display: flex;
     position: relative;
-    height: 25rem;
+    height: 22rem;
     article {
       position: absolute;
       width: 35rem;
