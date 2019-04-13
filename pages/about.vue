@@ -56,10 +56,10 @@ export default {
 }
 @media (max-width: 767px) {
   .about {
-    width: 140%;
-    margin: auto -25%;
+    width: 160%;
+    transform: translateX(-19%);
     article {
-      padding: 8% 0 5% 21%;
+      padding: 7% 0 5% 21%;
       h2 {
         font-size: 6.5vw;
         letter-spacing: 2.3vw;

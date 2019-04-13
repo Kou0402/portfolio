@@ -38,7 +38,7 @@
   .close-button {
     width: 5.5rem;
     height: 5.5rem;
-    margin-left: 75%;
+    margin-left: 68%;
   }
 }
 </style>
