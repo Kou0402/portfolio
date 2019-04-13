@@ -12,6 +12,7 @@
   position: relative;
   border: 1px solid rgba(0, 0, 0, 0.1);
   background-color: rgb(172, 164, 164);
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.3);
   cursor: pointer;
   &:before,
   &:after {

@@ -3,23 +3,23 @@
     <h1 class="main-title">welcome</h1>
     <div class="row">
       <article class="project">
-        <CategoryIcon class="category-icon">project</CategoryIcon>
+        <CategoryIcon>project</CategoryIcon>
       </article>
       <article class="product">
-        <CategoryIcon class="category-icon">product</CategoryIcon>
+        <CategoryIcon>product</CategoryIcon>
       </article>
     </div>
     <div class="row">
       <article class="about">
-        <CategoryIcon class="category-icon">about</CategoryIcon>
+        <CategoryIcon link-name="about">about</CategoryIcon>
       </article>
     </div>
     <div class="row">
       <article class="skill">
-        <CategoryIcon class="category-icon">skill</CategoryIcon>
+        <CategoryIcon>skill</CategoryIcon>
       </article>
       <article class="sns">
-        <CategoryIcon class="category-icon">sns</CategoryIcon>
+        <CategoryIcon>sns</CategoryIcon>
       </article>
     </div>
   </main>
@@ -37,13 +37,12 @@ export default {
 
 <style scoped lang="scss">
 main {
-  margin-top: 5%;
   .main-title {
     position: absolute;
-    font-size: 7rem;
+    font-size: 4.5vw;
     letter-spacing: 2rem;
     color: rgba(196, 196, 196, 1);
-    top: 18%;
+    top: 15%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
@@ -53,29 +52,26 @@ main {
     height: 25rem;
     article {
       position: absolute;
-      .category-icon {
-        margin: auto;
-      }
     }
     .project {
-      left: 14rem;
-      top: 13rem;
+      left: 13%;
+      top: 68%;
     }
     .product {
-      right: 13rem;
-      top: 10rem;
+      right: 13%;
+      top: 70%;
     }
     .about {
       position: relative;
-      margin: auto;
+      margin: 8% auto;
     }
     .skill {
-      left: 7rem;
-      bottom: 13rem;
+      left: 8%;
+      bottom: 30%;
     }
     .sns {
-      right: 21rem;
-      bottom: 10rem;
+      right: 10%;
+      bottom: 30%;
     }
     @media (max-width: 767px) {
       article {

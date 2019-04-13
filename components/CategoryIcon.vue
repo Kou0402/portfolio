@@ -1,20 +1,31 @@
 <template>
-  <router-link to="about" class="router-link">
+  <router-link :to="linkName" class="category-icon">
     <span>
       <slot></slot>
     </span>
   </router-link>
 </template>
 
+<script>
+export default {
+  props: {
+    linkName: {
+      type: String,
+      default: '/'
+    }
+  }
+}
+</script>
+
 <style lang="scss" scoped>
-.router-link {
+.category-icon {
   background-color: rgba(157, 177, 202, 1);
   position: relative;
   width: 50%;
   height: 50%;
   padding: 25%;
   border-radius: 50%;
-  margin: 1em;
+  margin: auto;
   box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.3);
   display: block;
   span {
