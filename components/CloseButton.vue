@@ -1,18 +1,19 @@
 <template>
-  <router-link to="/" class="close-button-wrapper">
+  <router-link to="/" class="close-button">
     <span></span>
   </router-link>
 </template>
 
 <style lang="scss" scoped>
-.close-button-wrapper {
+.close-button {
   display: inline-block;
-  width: 9rem;
-  height: 9rem;
+  width: 8rem;
+  height: 8rem;
   position: relative;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  background-color: rgb(172, 164, 164);
+  background-color: rgba(172, 164, 164, 0.9);
   box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.3);
+  margin-left: 80%;
   cursor: pointer;
   &:before,
   &:after {

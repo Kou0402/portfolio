@@ -1,16 +1,16 @@
 <template>
-  <section>
-    <div class="wrapper">
-      <CloseButton class="close-button"></CloseButton>
-      <article>
-        <h2>about</h2>
+  <section class="about">
+    <CloseButton></CloseButton>
+    <article>
+      <h2>about</h2>
+      <div class="about-text">
         <p>2013年 都内某4年制大学経済学部に入学</p>
         <p>2016年 専門商社の営業職に新卒入社。</p>
         <p>2017年 退職。</p>
         <p>2017年 訓練校にてプログラミング学習(Java)。</p>
         <p>2018年 SIerに入社しSEに転職。</p>
-      </article>
-    </div>
+      </div>
+    </article>
   </section>
 </template>
 
@@ -25,44 +25,42 @@ export default {
 </script>
 
 <style scoped lang="scss">
-section {
-  .wrapper {
-    background-color: rgba(157, 177, 202, 0.37);
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    position: absolute;
-    margin: auto;
-    .close-button {
-      margin-left: 85rem;
+.about {
+  background-color: rgba(157, 177, 202, 0.37);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  margin: auto;
+  width: 75%;
+  height: 70%;
+  border-radius: 50%;
+  article {
+    padding: 5% 12%;
+    color: rgb(172, 164, 164);
+    h2 {
+      font-size: 2.8vw;
+      text-decoration: underline;
+      letter-spacing: 1.8vw;
     }
-    article {
-      padding: 3rem 15rem;
-      color: rgb(172, 164, 164);
-      h2 {
-        font-size: 4rem;
-        text-decoration: underline;
-        letter-spacing: 2rem;
-      }
+    .about-text {
+      margin: 3% 7% 0;
       p {
-        margin: 3.2rem 4rem;
-        letter-spacing: 0.9rem;
-        font-size: 2rem;
+        letter-spacing: 0.6vw;
+        font-size: 1.4vw;
+        margin: 3rem 0;
       }
     }
   }
-  @media (max-width: 767px) {
-    .wrapper {
-      width: 25rem;
-    }
+}
+@media (max-width: 767px) {
+  .about {
+    width: 130%;
   }
-  @media (min-width: 768px) {
-    .wrapper {
-      width: 75%;
-      height: 70%;
-      border-radius: 50%;
-    }
+}
+@media (min-width: 768px) {
+  .about {
   }
 }
 </style>
