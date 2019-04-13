@@ -1,13 +1,13 @@
 <template>
-  <div class="category-icon">
+  <router-link to="about" class="router-link">
     <span>
       <slot></slot>
     </span>
-  </div>
+  </router-link>
 </template>
 
-<style scoped lang="scss">
-.category-icon {
+<style lang="scss" scoped>
+.router-link {
   background-color: rgba(157, 177, 202, 1);
   position: relative;
   width: 50%;
@@ -16,6 +16,7 @@
   border-radius: 50%;
   margin: 1em;
   box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.3);
+  display: block;
   span {
     position: absolute;
     left: 0;

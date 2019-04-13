@@ -1,6 +1,7 @@
 <template>
   <section>
     <div class="wrapper">
+      <CloseButton class="close-button"></CloseButton>
       <article>
         <h2>about</h2>
         <p>2013年 都内某4年制大学経済学部に入学</p>
@@ -13,6 +14,16 @@
   </section>
 </template>
 
+<script>
+import CloseButton from '~/components/CloseButton.vue'
+
+export default {
+  components: {
+    CloseButton
+  }
+}
+</script>
+
 <style scoped lang="scss">
 section {
   height: 100vh;
@@ -24,8 +35,11 @@ section {
     right: 0;
     position: absolute;
     margin: auto;
+    .close-button {
+      margin-left: 85rem;
+    }
     article {
-      padding: 10rem 15rem;
+      padding: 3rem 15rem;
       color: rgb(172, 164, 164);
       h2 {
         font-size: 4rem;
