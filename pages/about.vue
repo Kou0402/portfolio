@@ -59,7 +59,7 @@ export default {
     width: 160%;
     transform: translateX(-19%);
     article {
-      padding: 8vh 0 5% 21%;
+      padding: 7vh 0 5% 21%;
       h2 {
         font-size: 6.5vw;
         letter-spacing: 2.3vw;
