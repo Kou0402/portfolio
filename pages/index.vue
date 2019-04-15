@@ -82,17 +82,17 @@ main {
       top: 15vh;
     }
     .row {
-      height: 30vh;
+      height: 28vh;
       article {
         width: 20rem;
       }
       .project {
         left: 0%;
-        top: 30vh;
+        top: 28vh;
       }
       .product {
         right: 0%;
-        top: 28vh;
+        top: 26vh;
       }
       .about {
         position: relative;
