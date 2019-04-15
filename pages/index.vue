@@ -79,32 +79,32 @@ main {
 @media (max-width: 767px) {
   main {
     .main-title {
-      top: 12%;
+      top: 15vh;
     }
     .row {
-      height: 18rem;
+      height: 30vh;
       article {
         width: 20rem;
       }
       .project {
         left: 0%;
-        top: 73%;
+        top: 30vh;
       }
       .product {
         right: 0%;
-        top: 68%;
+        top: 28vh;
       }
       .about {
         position: relative;
-        margin: 20% auto;
+        margin: 20vh auto;
       }
       .skill {
         left: 0%;
-        bottom: 25%;
+        bottom: 4vh;
       }
       .sns {
         right: 0%;
-        bottom: 30%;
+        bottom: 6vh;
       }
     }
   }
