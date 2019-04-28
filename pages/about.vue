@@ -14,16 +14,6 @@
   </section>
 </template>
 
-<script>
-import CloseButton from '~/components/CloseButton.vue'
-
-export default {
-  components: {
-    CloseButton
-  }
-}
-</script>
-
 <style scoped lang="scss">
 .about {
   background-color: rgba(157, 177, 202, 0.37);

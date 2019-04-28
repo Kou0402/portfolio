@@ -6,6 +6,7 @@ html {
 body {
   font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
   background-color: rgba(0, 0, 0, 1);
+  position: relative;
 }
 h1 {
   font-size: 3.5rem;
