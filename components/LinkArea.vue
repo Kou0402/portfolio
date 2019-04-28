@@ -1,6 +1,6 @@
 <template>
   <section class="link-area">
-    <router-link to="/" class="link">About >></router-link>
+    <router-link to="about" class="link">About >></router-link>
     <router-link to="/" class="link">Project >></router-link>
     <router-link to="/" class="link">Product >></router-link>
   </section>
