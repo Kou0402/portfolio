@@ -13,31 +13,32 @@
 <style scoped lang="scss">
 .background-bar {
   position: relative;
+  opacity: 0.1;
   div {
     position: fixed;
-    background-color: rgba(206, 206, 206, 0.096);
+    background-color: rgb(206, 206, 206);
     width: 930px;
-    height: 13px;
+    height: 11px;
     border-radius: 10px;
   }
   .bar1 {
-    top: 150px;
-    left: -80px;
+    top: calc(50% - 255px);
+    right: calc(50% - 130px);
     transform: rotate(30deg);
   }
   .bar2 {
-    top: 610px;
-    left: -80px;
+    bottom: calc(50% - 218px);
+    right: calc(50% - 130px);
     transform: rotate(-30deg);
   }
   .bar3 {
-    top: 170px;
-    left: 590px;
+    top: calc(50% - 230px);
+    left: calc(50% - 130px);
     transform: rotate(-30deg);
   }
   .bar4 {
-    top: 630px;
-    left: 590px;
+    bottom: calc(50% - 242px);
+    left: calc(50% - 130px);
     transform: rotate(30deg);
   }
 }
