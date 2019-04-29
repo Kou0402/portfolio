@@ -26,7 +26,7 @@ export default {
 <style scoped lang="scss">
 p {
   letter-spacing: 0.5vw;
-  font-size: 1.2vw;
+  font-size: 2.5vh;
   line-height: 2em;
 }
 </style>

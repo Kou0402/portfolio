@@ -11,12 +11,12 @@
   position: fixed;
   bottom: 11vh;
   display: inline-flex;
-  width: 70%;
+  width: 80%;
   justify-content: space-between;
   left: 50%;
   transform: translateX(-50%);
   .link {
-    font-size: 3rem;
+    font-size: 2vh;
     text-decoration: none;
     color: white;
   }
