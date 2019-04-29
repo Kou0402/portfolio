@@ -37,7 +37,7 @@ export default {
     text-align: left;
     height: 90%;
     width: 70%;
-    overflow: scroll;
+    overflow-y: scroll;
   }
 }
 @media screen and (max-width: 896px) {
