@@ -11,14 +11,23 @@
   position: fixed;
   bottom: 11vh;
   display: inline-flex;
-  width: 80%;
+  width: 70%;
   justify-content: space-between;
   left: 50%;
   transform: translateX(-50%);
   .link {
-    font-size: 2vh;
+    font-size: 2.5vw;
     text-decoration: none;
     color: white;
+  }
+}
+@media screen and (max-width: 896px) {
+  .link-area {
+    bottom: 11vh;
+    width: 85%;
+    .link {
+      font-size: 5vw;
+    }
   }
 }
 </style>
