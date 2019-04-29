@@ -1,6 +1,6 @@
 <template>
   <main>
-    <PageTitle>welcome</PageTitle>
+    <PageTitle>WELCOME</PageTitle>
   </main>
 </template>
 

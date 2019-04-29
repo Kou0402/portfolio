@@ -19,6 +19,7 @@ h1 {
   h1 {
     letter-spacing: 6.5vw;
     text-indent: 6.5vw;
+    margin: 10vh auto;
   }
 }
 </style>

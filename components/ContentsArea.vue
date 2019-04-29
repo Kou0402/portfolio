@@ -35,6 +35,8 @@ export default {
   .content {
     color: white;
     text-align: left;
+    height: 90%;
+    overflow: scroll;
   }
 }
 @media screen and (max-width: 896px) {
