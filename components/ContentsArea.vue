@@ -36,6 +36,7 @@ export default {
     color: white;
     text-align: left;
     height: 90%;
+    width: 70%;
     overflow: scroll;
   }
 }
@@ -43,6 +44,7 @@ export default {
   .background {
     width: 85%;
     .content {
+      width: 90%;
     }
   }
 }
