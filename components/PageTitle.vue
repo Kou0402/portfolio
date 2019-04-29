@@ -6,7 +6,7 @@
 
 <style lang="scss" scoped>
 h1 {
-  letter-spacing: 5vw;
+  letter-spacing: 3vw;
   text-indent: 5vw;
   margin: 12vh auto;
   color: #ff8c00;
@@ -17,7 +17,7 @@ h1 {
 }
 @media screen and (max-width: 896px) {
   h1 {
-    letter-spacing: 6.5vw;
+    letter-spacing: 4.2vw;
     text-indent: 6.5vw;
     margin: 10vh auto;
   }
