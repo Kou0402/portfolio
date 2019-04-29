@@ -1,5 +1,7 @@
 <template>
-  <h1><slot></slot></h1>
+  <h1>
+    <slot></slot>
+  </h1>
 </template>
 
 <style lang="scss" scoped>
@@ -12,5 +14,11 @@ h1 {
   background-clip: text;
   -webkit-text-fill-color: transparent;
   display: inline-block;
+}
+@media screen and (max-width: 896px) {
+  h1 {
+    letter-spacing: 6.5vw;
+    text-indent: 6.5vw;
+  }
 }
 </style>

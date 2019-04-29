@@ -35,4 +35,12 @@
     transform: rotate(45deg);
   }
 }
+@media screen and (max-width: 896px) {
+  .close-button {
+    width: 5rem;
+    height: 5rem;
+    top: -2.5rem;
+    right: -2.5rem;
+  }
+}
 </style>

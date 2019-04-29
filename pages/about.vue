@@ -29,4 +29,11 @@ p {
   font-size: 2.5vh;
   line-height: 2em;
 }
+@media screen and (max-width: 896px) {
+  p {
+    letter-spacing: 0.1vw;
+    font-size: 1.7vh;
+    line-height: 2em;
+  }
+}
 </style>

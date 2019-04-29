@@ -37,4 +37,11 @@ export default {
     text-align: left;
   }
 }
+@media screen and (max-width: 896px) {
+  .background {
+    width: 85%;
+    .content {
+    }
+  }
+}
 </style>
