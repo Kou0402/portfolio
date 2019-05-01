@@ -57,14 +57,17 @@ article {
   p {
     letter-spacing: 0.1vw;
     line-height: 1.3em;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     margin-top: 1.7rem;
   }
 }
 @media screen and (max-width: 896px) {
-  p {
-    letter-spacing: 0;
-    line-height: 2em;
+  article {
+    p {
+      letter-spacing: 0;
+      line-height: 2em;
+      font-size: 1.2rem;
+    }
   }
 }
 </style>
