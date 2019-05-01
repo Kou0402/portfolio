@@ -21,6 +21,20 @@
           <SkillCard file-name="vue.svg" star="★★★☆☆"></SkillCard>
         </div>
       </article>
+      <article>
+        <h2>SNS</h2>
+        <div class="sns-link-area">
+          <a href="https://twitter.com/ko_u_0402?lang=ja" class="sns-link">
+            <img class="sns-image" src="~/assets/img/twitter.svg" />
+          </a>
+          <a href="https://qiita.com/ko_u_0402" class="sns-link">
+            <img class="sns-image" src="~/assets/img/qiita.png" />
+          </a>
+          <a href="https://github.com/Kou0402" class="sns-link">
+            <img class="sns-image github-image" src="~/assets/img/github.svg" />
+          </a>
+        </div>
+      </article>
     </ContentsArea>
   </main>
 </template>
@@ -54,10 +68,36 @@ p {
   flex-wrap: wrap;
   justify-content: center;
 }
+.sns-link-area {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  .sns-link {
+    width: 16rem;
+    margin: 0 1.4vw 2.5vh;
+    text-align: center;
+    .sns-image {
+      width: auto;
+      height: 7rem;
+    }
+    .github-image {
+      background-color: white;
+    }
+  }
+}
 @media screen and (max-width: 896px) {
   p {
     letter-spacing: 0;
     line-height: 2em;
+  }
+  .sns-link-area {
+    .sns-link {
+      width: 8rem;
+      margin: 0 1.8vw 2vh;
+      .sns-image {
+        height: 4rem;
+      }
+    }
   }
 }
 </style>
