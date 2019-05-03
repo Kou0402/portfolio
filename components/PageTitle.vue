@@ -8,7 +8,7 @@
 h1 {
   letter-spacing: 3vw;
   text-indent: 5vw;
-  margin: 12vh auto;
+  margin: 9vh auto;
   color: #ff8c00;
   background: linear-gradient(to right, #ff8132, #ff28ff 45%, #89fffd 75%);
   background-clip: text;

@@ -9,7 +9,7 @@
 <style lang="scss" scoped>
 .link-area {
   position: fixed;
-  bottom: 11vh;
+  bottom: 9vh;
   display: inline-flex;
   width: 70%;
   justify-content: space-between;
