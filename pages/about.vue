@@ -58,10 +58,11 @@ h2 {
   text-decoration: underline;
   letter-spacing: 1vw;
   margin: 3vh 0;
+  font-family: 'Slabo 27px', serif;
 }
 p {
-  letter-spacing: 0.4vw;
-  line-height: 2em;
+  letter-spacing: 0.3vw;
+  line-height: 1.5em;
 }
 .skillcard-area {
   display: flex;
@@ -88,7 +89,7 @@ p {
 @media screen and (max-width: 896px) {
   p {
     letter-spacing: 0;
-    line-height: 2em;
+    line-height: 1.3em;
   }
   .sns-link-area {
     .sns-link {
