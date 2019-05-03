@@ -15,6 +15,9 @@ h1 {
   -webkit-text-fill-color: transparent;
   display: inline-block;
   font-family: 'Slabo 27px', serif;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
 }
 @media screen and (max-width: 896px) {
   h1 {
