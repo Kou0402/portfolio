@@ -23,14 +23,14 @@ h1 {
 }
 
 /* transition */
-.v-enter-active,
-.v-leave-active {
-  transition: opacity 1.5s, transform 1.5s;
-}
 .v-enter,
 .v-leave-to {
   opacity: 0;
-  transform: translate(-50%, 5vh);
+  transform: translate(-50%, 3rem);
+}
+.v-enter-active,
+.v-leave-active {
+  transition: opacity 1s, transform 1s;
 }
 
 @media screen and (max-width: 896px) {
