@@ -1,5 +1,5 @@
 <template>
-  <transition name="up" appear>
+  <transition name="page-title" appear>
     <h1>
       <slot></slot>
     </h1>
@@ -23,13 +23,11 @@ h1 {
 }
 
 /* transition */
-.up-enter,
-.up-leave-to {
+.page-title-enter {
   opacity: 0;
   transform: translate(-50%, 3rem);
 }
-.up-enter-active,
-.up-leave-active {
+.page-title-enter-active {
   transition: opacity 1s, transform 1s;
 }
 
