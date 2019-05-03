@@ -1,5 +1,5 @@
 <template>
-  <transition appear>
+  <transition name="up" appear>
     <h1>
       <slot></slot>
     </h1>
@@ -23,13 +23,13 @@ h1 {
 }
 
 /* transition */
-.v-enter,
-.v-leave-to {
+.up-enter,
+.up-leave-to {
   opacity: 0;
   transform: translate(-50%, 3rem);
 }
-.v-enter-active,
-.v-leave-active {
+.up-enter-active,
+.up-leave-active {
   transition: opacity 1s, transform 1s;
 }
 
