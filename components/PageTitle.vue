@@ -14,6 +14,7 @@ h1 {
   background-clip: text;
   -webkit-text-fill-color: transparent;
   display: inline-block;
+  font-family: 'Slabo 27px', serif;
 }
 @media screen and (max-width: 896px) {
   h1 {

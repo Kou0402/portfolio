@@ -19,6 +19,7 @@
     font-size: 2.5vw;
     text-decoration: none;
     color: white;
+    font-family: 'Slabo 27px', serif;
   }
 }
 @media screen and (max-width: 896px) {
