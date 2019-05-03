@@ -1,7 +1,9 @@
 <template>
-  <h1>
-    <slot></slot>
-  </h1>
+  <transition appear>
+    <h1>
+      <slot></slot>
+    </h1>
+  </transition>
 </template>
 
 <style lang="scss" scoped>
@@ -19,6 +21,18 @@ h1 {
   left: 50%;
   transform: translateX(-50%);
 }
+
+/* transition */
+.v-enter-active,
+.v-leave-active {
+  transition: opacity 1.5s, transform 1.5s;
+}
+.v-enter,
+.v-leave-to {
+  opacity: 0;
+  transform: translate(-50%, 5vh);
+}
+
 @media screen and (max-width: 896px) {
   h1 {
     letter-spacing: 4.2vw;
