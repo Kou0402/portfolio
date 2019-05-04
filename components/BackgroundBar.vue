@@ -42,7 +42,7 @@
 @media screen and (max-width: 896px) {
   .background-bar {
     div {
-      height: 9px;
+      height: 8px;
     }
   }
 }
