@@ -27,7 +27,7 @@
     bottom: 11vh;
     width: 85%;
     .link {
-      font-size: 5vw;
+      font-size: 6vw;
     }
   }
 }
