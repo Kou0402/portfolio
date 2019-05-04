@@ -1,9 +1,11 @@
 <template>
   <div class="background">
     <CloseButton></CloseButton>
-    <section class="content">
-      <slot></slot>
-    </section>
+    <transition name="content" appear>
+      <section class="content">
+        <slot></slot>
+      </section>
+    </transition>
   </div>
 </template>
 
@@ -40,6 +42,15 @@ export default {
     overflow-y: scroll;
   }
 }
+
+/* transition */
+.content-enter {
+  opacity: 0;
+}
+.content-enter-active {
+  transition: opacity 2s;
+}
+
 @media screen and (max-width: 896px) {
   .background {
     width: 85%;

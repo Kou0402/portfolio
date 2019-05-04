@@ -1,8 +1,17 @@
 <template>
   <section class="link-area">
-    <router-link to="/about" class="link">About >></router-link>
-    <router-link to="/work" class="link">Work >></router-link>
-    <router-link to="/product" class="link">Product >></router-link>
+    <router-link to="/about" class="link">
+      About
+      <span>>></span>
+    </router-link>
+    <router-link to="/work" class="link">
+      Work
+      <span>>></span>
+    </router-link>
+    <router-link to="/product" class="link">
+      Product
+      <span>>></span>
+    </router-link>
   </section>
 </template>
 
@@ -21,7 +30,14 @@
     color: white;
     font-family: 'Slabo 27px', serif;
   }
+  .nuxt-link-active {
+    span {
+      display: inline-block;
+      transform: rotateY(180deg);
+    }
+  }
 }
+
 @media screen and (max-width: 896px) {
   .link-area {
     bottom: 11vh;
