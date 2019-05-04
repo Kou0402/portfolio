@@ -30,6 +30,13 @@
         <h4>技術</h4>
         <p>Java/JavaScript/Seasar2/jQuery/SQLServer</p>
       </article>
+      <article>
+        <h3>サーバーリプレイス</h3>
+        <h4>概要</h4>
+        <p>老朽化したサーバーとソフトウェアのリプレイス案件。主にバッチ系処理の製造を担当。</p>
+        <h4>技術</h4>
+        <p>WindowsServer/Java/VBS</p>
+      </article>
     </ContentsArea>
   </main>
 </template>
