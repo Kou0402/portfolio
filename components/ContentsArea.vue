@@ -19,7 +19,7 @@ export default {
 
 <style lang="scss" scoped>
 .background {
-  background-color: rgba(195, 195, 195, 0.03);
+  background-color: rgba(195, 195, 195, 0.05);
   top: 0;
   bottom: 0;
   left: 0;

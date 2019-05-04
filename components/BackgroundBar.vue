@@ -10,7 +10,7 @@
 <style lang="scss" scoped>
 .background-bar {
   position: relative;
-  opacity: 0.09;
+  opacity: 0.07;
   div {
     position: fixed;
     background-color: rgb(206, 206, 206);
