@@ -4,7 +4,7 @@
     <ContentsArea>
       <article>
         <h2>Career</h2>
-        <p>2013年 都内４年制大学経済学部に入学。</p>
+        <p>2013年 成城大学経済学部に入学。</p>
         <p>2016年 営業職として専門商社に入社。</p>
         <p>2017年 退職。</p>
         <p>2017年 職練校にてWebプログラミング講座受講。</p>
@@ -19,6 +19,8 @@
           <SkillCard file-name="spring.svg" star="★★★☆☆"></SkillCard>
           <SkillCard file-name="jquery.svg" star="★★★★☆"></SkillCard>
           <SkillCard file-name="vue.svg" star="★★★☆☆"></SkillCard>
+          <SkillCard file-name="circleci.svg" star="★★☆☆☆"></SkillCard>
+          <SkillCard file-name="firebase.svg" star="★★☆☆☆"></SkillCard>
         </div>
       </article>
       <article>

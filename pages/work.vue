@@ -26,7 +26,7 @@
       <article>
         <h3>契約管理システムリプレイス</h3>
         <h4>概要</h4>
-        <p>保証会社の社内システムのリプレイス案件。Flashで構成されたシステムをHTML5/CSS3にて再構成。 主にjQueryによる画面動作部を担当。</p>
+        <p>金融関連会社の社内システムのリプレイス案件。Flashで構成されたシステムをHTML5/CSS3にて再構成。 主にjQueryによる画面動作部を担当。</p>
         <h4>技術</h4>
         <p>Java/JavaScript/Seasar2/jQuery/SQLServer</p>
       </article>
