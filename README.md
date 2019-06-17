@@ -1,22 +1,9 @@
-# portfolio2
+# My portfolio
+* URL : https://kou-bfly.netlify.com
 
-> My cat&#39;s pajamas Nuxt.js project
+## Main Technology Stack
+* Vue.js/Nuxt.js
+* Netlify
 
-## Build Setup
-
-``` bash
-# install dependencies
-$ yarn install
-
-# serve with hot reload at localhost:3000
-$ yarn run dev
-
-# build for production and launch server
-$ yarn run build
-$ yarn start
-
-# generate static project
-$ yarn run generate
-```
-
-For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
+## Thema
+* BUMP OF CHICKEN - BFLY
