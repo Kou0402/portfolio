@@ -6,7 +6,7 @@
         <h3>不動産会社業務システム改修</h3>
         <h4>概要</h4>
         <p>
-          不動産会社の営業向け顧客管理パッケージソフトの改修案件。
+          不動産会社の営業向け顧客管理パッケージソフトの改修案件。<br />
           顧客検索部分の新機能ページの追加を担当。
         </p>
         <h4>技術</h4>
@@ -68,7 +68,6 @@ export default {
 article {
   margin-bottom: 4rem;
   h3 {
-    text-decoration: underline;
     letter-spacing: 0.4vw;
     margin: 3vh 0;
   }
