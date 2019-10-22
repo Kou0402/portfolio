@@ -38,7 +38,7 @@ export default {
     color: white;
     text-align: left;
     height: 90%;
-    width: 70%;
+    width: 80%;
     overflow-y: scroll;
   }
 }
