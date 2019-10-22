@@ -82,3 +82,6 @@ dist
 
 # Service worker
 sw.*
+
+# Finder setting
+.DS_Store
