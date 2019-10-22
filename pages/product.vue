@@ -35,7 +35,7 @@ export default {
         productUrl: 'https://kou-bfly.netlify.com',
         productName: 'Hello world!',
         productDescription: [
-          'ポートフォリオサイトです。『Hello,world!』',
+          '私のポートフォリオサイトです。『Hello,world!』',
           'はバンド『BUMP OF CHICKEN』の『Butterflies』',
           'というアルバムの収録曲です。',
           'サイトを作成する際に何かテーマを決めて作ろうと思い',
@@ -62,4 +62,10 @@ export default {
 }
 </script>
 
-<style scoped lang="scss"></style>
+<style scoped lang="scss">
+@media screen and (max-width: 896px) {
+  .product-card-container {
+    margin-bottom: 2rem;
+  }
+}
+</style>

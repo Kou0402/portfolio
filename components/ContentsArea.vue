@@ -28,7 +28,7 @@ export default {
   right: 0;
   position: fixed;
   margin: auto;
-  width: 60%;
+  width: 900px;
   height: 55%;
   border-radius: 10px;
   display: flex;
@@ -53,7 +53,7 @@ export default {
 
 @media screen and (max-width: 896px) {
   .background {
-    width: 85%;
+    width: 320px;
     .content {
       width: 90%;
     }

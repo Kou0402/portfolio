@@ -73,4 +73,32 @@ export default {
     grid-column: 2;
   }
 }
+
+@media screen and (max-width: 896px) {
+  .product-card-container {
+    display: initial;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    .product-title-link {
+      letter-spacing: 0.4vw;
+      font-size: 2rem;
+      color: white;
+      margin: 0.2rem 0;
+    }
+    .product-description {
+      padding-right: initial;
+      margin: 1.2rem 0;
+      p {
+        letter-spacing: 0;
+        line-height: 2rem;
+        font-size: 1.1rem;
+        margin: 0;
+      }
+    }
+    .product-img {
+      width: 230px;
+    }
+  }
+}
 </style>
