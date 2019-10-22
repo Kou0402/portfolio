@@ -53,7 +53,7 @@ export default {
           '面白いポートフォリオサイトが沢山あることを知り',
           'それらが眠っているだけではもったいないと感じ',
           '共有できる場があればいいと思い作成しました。',
-          '使用技術：Nuxt.js, Firebase'
+          '使用技術：Nuxt.js, Firebase, CircleCI'
         ],
         productImg: 'portfolio_library.png'
       }
