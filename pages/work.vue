@@ -80,6 +80,9 @@ article {
 }
 @media screen and (max-width: 896px) {
   article {
+    h3 {
+      font-size: 2rem;
+    }
     p {
       letter-spacing: 0;
       line-height: 2em;
